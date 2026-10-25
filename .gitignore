@@ -1,0 +1,14 @@
+# build outputs
+engine/bench_gen
+engine/libllada.so
+engine/tests/*
+!engine/tests/*.cu
+!engine/tests/*.py
+!engine/tests/*.sh
+!engine/tests/prompts/
+__pycache__/
+*.pyc
+# test cases and weights are generated (tests/gen_*_case.py, quant/student_case.py, quant/s0*.py)
+*.npy
+*.pt
+*.safetensors
